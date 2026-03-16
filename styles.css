@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Golos Text";
+  src: url("./fonts/GolosText-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Golos Text";
+  src: url("./fonts/GolosText-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --blue-color: #0040cc;
+  --light-blue-color: #aac3ee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: "Golos Text";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: var(--light-blue-color);
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+header {
+  background-color: var(--blue-color);
+  padding: 24px 0 24px 0;
+  margin-bottom: 35px;
+}
+
+.container-big {
+  max-width: 1052px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 906px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--blue-color);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.printed-materials__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  margin-bottom: 45px;
+}
+
+.printed-materials__img {
+  max-width: 280px;
+}
+
+.printed-materials__img.horizontal {
+  max-width: 400px;
+}
+
+.restoration-retouching__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  margin-bottom: 45px;
+}
+
+.restoration-retouching__img {
+  max-width: 400px;
+}
+
+.web__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  margin-bottom: 45px;
+}
+
+.web__img {
+  max-width: 440px;
+}
+
+.footer {
+  display: flex;
+  background-color: var(--blue-color);
+  padding: 25px 0;
+  color: white;
+}
